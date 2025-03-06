@@ -16,12 +16,12 @@ To write a program to predict the profit of a city using the linear regression m
 4.Plot the Cost function using Gradient Descent and generate the required graph. 
 
 ## Program:
-```
-/*
-Program to implement the linear regression using gradient descent.
-Developed by: k vijay
-RegisterNumber:23004034
-*/ import numpy as np
+
+## Program to implement the linear regression using gradient descent.
+## Developed by: k vijay
+## RegisterNumber:23004034
+ ```
+ import numpy as np
  import pandas as pd
  from sklearn.preprocessing import StandardScaler
  def linear_regression(X1,y,learning_rate=0.01,num_iters=1000):
